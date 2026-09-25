@@ -1,0 +1,6 @@
+Sensor,Platform,Spatial Res.,AUC Score,Sensitivity,Specificity,Performance,,Δ AUC Improvement Matrix,,,,,,,
+Sentinel-2 MSI,ESA Sentinel-2A/2B,20 m,0.98,0.94,0.96,Excellent,,Comparison,Sensor A,AUC (A),Sensor B,AUC (B),Δ AUC,% Improvement,Significance
+Landsat-8/9 OLI,USGS Landsat 8 & 9,30 m,0.8347,0.88,0.87,Good,,,,,,,,,
+MODIS Terra/Aqua,NASA Terra & Aqua,500 m,0.7028,0.79,0.82,Fair,,Sentinel-2 vs MODIS,Sentinel-2,0.98,MODIS,0.7028,0.2772,39.4422310756972,Highly Significant (p < 0.001)
+,,,,,,,,Sentinel-2 vs Landsat,Sentinel-2,0.98,Landsat,0.8347,0.1453,17.4074517790823,Significant (p < 0.01)
+,,,,,,,,Landsat vs MODIS,Landsat,0.8347,MODIS,0.7028,0.1319,18.7677859988617,Significant (p < 0.05)
